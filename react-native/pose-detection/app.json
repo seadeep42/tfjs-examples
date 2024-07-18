@@ -1,12 +1,23 @@
 {
-  "name": "pose-detection-expo",
-  "displayName": "pose-detection-expo",
+  "name": "adya-acuity-demo",
+  "displayName": "Adya Acuity Demo",
   "expo": {
-    "name": "pose-detection-expo",
-    "slug": "pose-detection-expo",
+    "name": "adya-acuity-demo",
+    "slug": "adya-acuity-demo",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "plugins": [
+      [
+        "@appandflow/expo-camera-characteristics",
+        {}
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7bcaae0f-9d2b-4ad7-b326-2b97673e78f7"
+      }
+    }
   }
 }
